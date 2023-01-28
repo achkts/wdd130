@@ -1,6 +1,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    background-color: white;
 }
 
 nav a {
@@ -41,10 +42,11 @@ main section {
 
 #background {
     height: 725px;
+    background-color: #CA6702;
 }
 
 body {
-    background-color: white;
+    background-color: #0A9396;
 }
 
 header {
@@ -60,7 +62,7 @@ h4 {
     color: #0E445A;
 }
 
-.book, .join{
+.book, .join {
     background-color: #CA6702;
     color: white;
     text-decoration: none;
@@ -71,24 +73,20 @@ h4 {
     color: white;
 }
 
-#background {
-    background-color: #0A9396;
-}
-
 .msg {
-    background-color: #0A9396;
+    background-color: #0E445A;
 }
 
 .msg h2 {
-    color: #0A9396;
+    color: #CA6702;
 }
 
 .msg p {
-    color: #0A9396;
+    color: white;
 }
 
 footer {
-    background-color: #CA6702;
+    background-color: #3e3e3e;
     color: white;
 }
 
