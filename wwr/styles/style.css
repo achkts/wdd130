@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Rock+Salt&display=swap');
+
 body {
     background-color: #0A9396;
+    font-family: 'Rock Salt';
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -10,6 +16,15 @@ header {
 footer {
     background-color: #3e3e3e;
     color: white;
+    font-family: 'Barlow', sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+h2 {
+    font-family: 'Rock Salt';
+    color: #0E445A;
+    margin: 0;
 }
 
 #content {
@@ -22,6 +37,8 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: 'Barlow';
+    padding: 35px;
 }
 
 nav a:hover {
@@ -30,12 +47,17 @@ nav a:hover {
     text-decoration: underline;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .logo {
     width: 80px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -57,41 +79,64 @@ main section {
 #background {
     height: 725px;
     background-color: #CA6702;
+    margin-bottom: 100px; 
+}
+
+.mountains {
+   margin-bottom: 200px;
 }
 
 .home-title {
     color: #0E445A;
+    font-family: 'Rock Salt';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: #0E445A;
+    font-family: 'Rock Salt';
 }
+
 
 .book, .join {
     background-color: #CA6702;
     color: white;
     text-decoration: none;
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
-    background-color: #0E445A;
+    background-color: #0A9396;
     color: white;
+    
 }
 
 .msg {
     background-color: #0E445A;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #CA6702;
+    font-family: 'Rock Salt';
 }
 
 .msg p {
     color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer p {
     font-size: 1.2em;
+    font-family: 'Barlow', sans-serif;
 }
 
 footer p a:hover {
@@ -106,4 +151,20 @@ footer a {
 footer a:hover {
     color: white;
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #0E445A;
+}
+
+main section img {
+    box-sizing: border-box;
 }

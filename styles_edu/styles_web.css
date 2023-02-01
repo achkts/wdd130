@@ -1,0 +1,24 @@
+
+body {
+    background-color: gray;
+}
+
+#banner {
+    width: 100%;
+    display: inline;
+}
+
+.desk, .graphic, .person {
+    border-radius: 50%;
+    padding: auto;
+    border: 11px solid rgb(61, 58, 58);
+    margin: 25px 4%;
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+div {
+    height: auto;
+}
+
