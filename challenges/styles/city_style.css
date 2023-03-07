@@ -1,0 +1,16 @@
+footer {
+    background-color: #032a68;
+    color: white;
+    font-family: 'Barlow', 'Verdana', sans-serif;
+    font-size: 1em;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-column: ;
+}
