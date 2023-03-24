@@ -79,7 +79,7 @@ a {
     grid-template-columns: repeat(12, 1fr);
     /* grid-template-rows: repeat(16, 100px); */
     padding: 0 2em;
-    gap: 1.5em;
+    gap: 1em;
 
 }
 /*  This rule name changes based upon the default button color   */
@@ -109,6 +109,24 @@ a {
     padding: 0 1em;
 }
 
+.previous {
+    grid-column: 1;
+    grid-row: 13;
+    background-color: #ffa1ac;
+    color: #5a3f05;
+    border-radius: 10%;
+    text-align: center;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    padding: 0 .5em; 
+
+}
+.youtube {
+    width: 560px; 
+    height: 315px; 
+    margin: 0 auto;
+    display: block;
+}
 /*  This is the default grid layout for all grids. Other grids can be defined as needed. */
 /* .grid-default {
     display: grid;
@@ -268,7 +286,55 @@ footer a:hover {
 
 
 /* -------------------------The Process Page------------------------ */
+.process-content h1{
+    grid-column: 1/-1;
+    grid-row: 1;
+    text-align: center;
+}
+.left-side {
+    grid-column: 1/3;
+}
+.process-content .left-side p {
+    padding: 15px;
+}
+#hands, #plate {
+    border: 10px solid #3FA796;
+}
+#fry {
+    border: 10px solid #ffa1ac;
+}
+.right-side h2 {
+    text-align: center;
+}
 
+.right-side {
+    grid-column: 3/-1;
+}
+
+.three-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    margin-left: 25px;
+}
+
+#mix, #knead, #roll {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+}
+
+#mix, #roll {
+    border: 10px solid #ffa1ac;
+}
+#knead {
+    border: 10px solid #3fa796;
+}
+
+.process-content .right-side p {
+    padding: 25px;
+    text-indent: 15px;
+}
 
 /* -----------------------------The Decorating Page----------------------------- */
 
