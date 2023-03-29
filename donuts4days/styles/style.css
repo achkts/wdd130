@@ -376,9 +376,7 @@ figure {
 }
 
 #frost, #drizzle, #dip, #pipe, #glaze {
-    width: 500px;
-    height: 200px;
-    object-fit: fill;
+    min-width: 75px;
 }
 
 #frost, #pipe {
