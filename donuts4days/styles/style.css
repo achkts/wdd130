@@ -262,7 +262,7 @@ footer a:hover {
 .p1 {
     grid-column: 7/-1;
     grid-row: 2;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 
@@ -276,6 +276,7 @@ footer a:hover {
     grid-column: 8/-1;
     grid-row: 4;
     margin-top: 15px;
+    margin-bottom: 50px;
 }
 .p4 {
     grid-column: 1/9;
