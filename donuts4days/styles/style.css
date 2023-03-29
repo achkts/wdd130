@@ -378,6 +378,7 @@ figure {
 
 #frost, #drizzle, #dip, #pipe, #glaze {
     min-width: 75px;
+    margin: 0;
 }
 
 #frost, #pipe {
